@@ -11,17 +11,16 @@ npm install --save react-chatbot-with-text-and-speech
 ```
 
 ## Demo
+[https://muthuishere.github.io/react-chatbot-with-text-and-speech/](https://muthuishere.github.io/react-chatbot-with-text-and-speech/)
+Demo requires an API server to be running. See [API Server](#api-server) section below.
 
 
-
+Setup an API Server [Github](https://github.com/muthuishere/react-chatbot-with-text-and-speech/tree/main/example/samplepythonserver)
 ## Usage
 
 
-You can use a simple method to return responses based on questions.
+You can use a simple method to return responses based on questions, The method can return promise as well.
 
-The method can return a JSON object with the following properties:
-```json
-{ text: 'Handle static ' + message.data }
 ```
 
 
@@ -47,8 +46,9 @@ const ChatBotWithStatic = () => {
 }
 ```
 
-#### Chatbot with HttP Request
+#### Chatbot with HTTP Request
 
+ A sample HTTP Request server in python is available on [Github](https://github.com/muthuishere/react-chatbot-with-text-and-speech/tree/main/example/samplepythonserver)
 ```jsx
 
 import { ChatBotComponent } from 'react-chatbot-with-text-and-speech'
@@ -94,7 +94,7 @@ const ChatBotWithHttp = () => {
 
 
 #### Chatbot with websocket
-
+A sample Websocket in python is available on [Github](https://github.com/muthuishere/react-chatbot-with-text-and-speech/tree/main/example/samplepythonserver)
 ```jsx
 
 import { ChatBotComponent } from 'react-chatbot-with-text-and-speech'

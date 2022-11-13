@@ -11,6 +11,9 @@
   "engines": {
     "node": ">=10"
   },
+  "issues": {
+    "url": "https://github.com/muthuishere/react-chatbot-with-text-and-speech/issues"
+  },
   "scripts": {
     "build": "microbundle-crl --no-compress --format modern,cjs",
     "start": "microbundle-crl watch --no-compress --format modern,cjs",
