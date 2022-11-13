@@ -1,4 +1,22 @@
 /* add css module styles here (optional) */
+@import url('https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css');
+
+
+/*.btn {*/
+/*  background-color: DodgerBlue;*/
+/*  border: none;*/
+/*  color: white;*/
+/*  padding: 12px 16px;*/
+/*  font-size: 16px;*/
+/*  cursor: pointer;*/
+/*}*/
+
+/*!* Darker background on mouse-over *!*/
+/*.btn:hover {*/
+/*  background-color: RoyalBlue;*/
+/*}*/
+
 
 .test {
   margin: 2em;
@@ -6,4 +24,169 @@
   border: 2px solid #000;
   font-size: 2em;
   text-align: center;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+  monospace;
+}
+
+.container {
+  max-width: unset;
+  margin: auto;
+}
+img {
+  max-width: 100%;
+}
+
+.top_spac {
+  margin: 20px 0 0;
+}
+
+.recent_heading h4 {
+  color: #05728f;
+  font-size: 21px;
+  margin: auto;
+}
+
+
+.incoming_msg_img {
+  display: inline-block;
+}
+
+.incoming_msg_text {
+  display: inline-block;
+  padding: 0 0 0 10px;
+  vertical-align: top;
+
+}
+.received_withd_msg p {
+  background: #ebebeb none repeat scroll 0 0;
+  border-radius: 3px;
+  color: #646464;
+  font-size: 14px;
+  margin: 0;
+  padding: 15px 10px 15px 12px;
+  width: 100%;
+}
+.time_date {
+  color: #747474;
+  display: block;
+  font-size: 12px;
+  margin: 8px 0 0;
+}
+
+.appcontainer {
+  display: flex;
+  flex-direction: column;
+  width: 98%;
+  border: 1px solid #c4c4c4;
+  clear: both;
+  overflow: hidden;
+  padding: 5px;
+  margin: 20px;
+}
+
+.sent_msg p {
+  background: #05728f none repeat scroll 0 0;
+  border-radius: 3px;
+  font-size: 14px;
+  margin: 0;
+  color: #fff;
+  padding: 15px 10px 15px 12px;
+
+  width: 100%;
+}
+.outgoing_msg {
+  overflow: hidden;
+  margin: 26px 0 26px;
+}
+.sent_msg {
+  float: right;
+  width: 46%;
+}
+.sendInput{
+  min-width: 100%;
+  border: none;
+  padding-left: 20px;
+  min-height: 40px;
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  border: medium none;
+  color: #4c4c4c;
+  font-size: 15px;
+  min-height: 48px;
+  width: 97%;
+  padding-left: 20px;
+  margin-bottom: 10px;
+}
+
+.send_panel input.write_msg {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  border: medium none;
+  color: #4c4c4c;
+  font-size: 15px;
+  min-height: 48px;
+  width: 97%;
+  padding-left: 20px;
+  margin-bottom: 10px;
+}
+
+.type_msg {
+  border-top: 1px solid #c4c4c4;
+  /*position: relative;*/
+}
+.msg_send_btn {
+  background: #05728f none repeat scroll 0 0;
+  border: medium none;
+  border-radius: 50%;
+  color: #fff;
+  cursor: pointer;
+  font-size: 17px;
+  height: 33px;
+  /*position: absolute;*/
+  /*right: 0;*/
+  top: 11px;
+  width: 33px;
+  float: right;
+  margin-top: 5px;
+}
+
+.msg_history {
+  height: calc(100vh - 230px);
+  overflow-y: auto;
+  margin-top: 50px;
+  width: 100%;
+}
+
+.botImageClass{
+  min-width: 64px;
+}
+.speechcontainer {
+  position: absolute;
+}
+
+/*Editable Tree CSS*/
+
+.tree-container{
+  padding:10px;
+  width:100%;
+  height:500px
+}
+
+.navbar_ul{
+  display: flex;
+  gap: 31px;
+  flex-flow: row;
+}
+
+.messageDiv{
+  display:flex;
+  flex-direction:row;
+}
+
+.messageContainer_img{
+  width:450px;
+  min-width:450px;
+  height: calc(100vh - 230px);
+  margin-top: 50px;
 }
